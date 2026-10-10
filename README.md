@@ -128,4 +128,4 @@ Resposta de uma sincronização que passou por um 429 de 30 segundos:
 
 O código, os testes e este README foram escritos com Claude Code (Claude Opus), a partir do enunciado. O modelo de snapshot e a decisão sobre `Retry-After` acima do teto foram propostos pela IA.
 
-O que eu revisei: <preencher antes de enviar, só com o que foi de fato conferido>.
+O que eu revisei: os padrões de backend, as tipagens, os early returns, as constantes e se os testes realmente testam os cenários de falha.

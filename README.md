@@ -128,4 +128,6 @@ Resposta de uma sincronização que passou por um 429 de 30 segundos:
 
 O código, os testes e este README foram escritos com Claude Code (Claude Opus), a partir do enunciado. O modelo de snapshot e a decisão sobre `Retry-After` acima do teto foram propostos pela IA.
 
+Verificação automática, rodada pela IA e não por mim: `npm test` passa com 26 testes em 2 arquivos e `npx tsc --noEmit` não acusa erro. Entre os testes estão "sobrevive a dois timeouts seguidos com backoff" e "espera exatamente o Retry-After do 429 e tenta de novo".
+
 O que eu revisei: os padrões de backend, as tipagens, os early returns, as constantes e se os testes realmente testam os cenários de falha.
